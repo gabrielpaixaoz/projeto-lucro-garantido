@@ -38,10 +38,88 @@ span{
 
 i{
   display: inline-block;
-  padding-left: 58vw;
+}
+
+h2{
+  position: relative;
+  margin: 20px;
 }
 
 
+span#menu{
+  color: #454851;
+  position: absolute;
+  left: 86.7vw;
+}
 
+img{
+  margin: 30px;
+  width: 297px;
+  height: 187px;
+  box-shadow: -10px -10px 0px var(--cor3), 1px 1px 8px rgba(0, 0, 0, 0.466);
+  border-radius: 10px;
+}
+
+div#imagem{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ user-select: none;
+ 
+
+}
+
+div#lucro{
+  background-color: #454851;
+  width: 350px;
+  height: 70px;
+  font-size: 1em;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: var(--cor0);
+  border-radius: 10px;
+  box-shadow: 10px -10px 0px var(--cor1), 1px 1px 8px rgba(0, 0, 0, 0.466);
+  user-select: none;
+  margin-top: 200px;
+  
+}
+section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+section > p{
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+ }
+
+ div#assine{
+  background-color: var(--cor1);
+  width: 250px;
+  height: 70px;
+  font-size: 1.1em;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: var(--cor3);
+  border-radius: 10px;
+  user-select: none;
+  cursor: pointer;
+  margin: auto;
+ 
+ }
 
 

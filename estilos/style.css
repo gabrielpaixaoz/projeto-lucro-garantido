@@ -46,10 +46,12 @@ h2{
 }
 
 
-span#menu{
+span#burguer{
   color: #454851;
   position: absolute;
   left: 86.7vw;
+  cursor: pointer;
+  user-select: none;
 }
 
 img{
@@ -84,14 +86,12 @@ div#lucro{
   border-radius: 10px;
   box-shadow: 10px -10px 0px var(--cor1), 1px 1px 8px rgba(0, 0, 0, 0.466);
   user-select: none;
-  margin-top: 200px;
+  margin: auto;
+  margin-top: 35px;
   
 }
 section{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
   
 }
 
@@ -122,4 +122,26 @@ section > p{
  
  }
 
+menu > ul > li > a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  border-top: 2px solid gray;
+  color: #454851;
+}
 
+menu > ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+menu{
+  padding: 0px;
+}
+
+menu > ul > li a:hover{
+  color: var(--cor1);
+}
